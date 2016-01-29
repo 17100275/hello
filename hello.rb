@@ -1,4 +1,4 @@
-var=gets.chomp
+name =ARGV.first || "World"
 
-puts "hello world #{var}!"
+puts "hello world #{name}!"
 
